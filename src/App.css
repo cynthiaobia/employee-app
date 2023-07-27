@@ -1,5 +1,4 @@
-
-.employeeListItem {
+.employeeListItem, .employee-container {
     border: solid 1px lightgray;
     padding: 1px;
     margin: 1px;
@@ -33,4 +32,14 @@
 
 p {
     color: gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 2px;
+    margin: 2px;
 }

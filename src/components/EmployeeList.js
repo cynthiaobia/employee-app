@@ -30,3 +30,8 @@ export default EmployeeList;
 // employees.forEach(employee => )
 // setAttribute('name', {employee.name})
 // setAttribute('role', {employee.role})
+
+/*
+employees.forEach(employee => {
+    <EmployeeListItem name = {employee.name} role = {employee.role} />
+})*/
