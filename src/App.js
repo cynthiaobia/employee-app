@@ -1,14 +1,10 @@
 import './App.css';
-import Header from './components/Header'
-import SearchBar from './components/SearchBar'
-import EmployeeList from './components/EmployeeList';
+import HomePage from './pages/HomePage.js';
 
 function App() {
   return (
     <div className="App">
-        <Header />
-        <SearchBar />
-        <EmployeeList />
+      <HomePage />
     </div>
   );
 }
