@@ -1,0 +1,36 @@
+
+.employeeListItem {
+    border: solid 1px lightgray;
+    padding: 1px;
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.employeeListItem img {
+    border-radius: 50%;
+}
+
+.pic {
+    background-color: cyan;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 2px;
+    padding: 2px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-items {
+    margin: 2px;
+    padding: 2px;
+}
+
+p {
+    color: gray;
+}
