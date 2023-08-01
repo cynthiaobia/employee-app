@@ -10,7 +10,7 @@ function EmployeePage(){
     }
 
     return (
-        <div>
+        <div className='page-item'>
             <h1>Employee</h1>
             <div class='employee-container'>
                 <div className='pic'></div>
@@ -19,10 +19,22 @@ function EmployeePage(){
                     <p className="info-items">{employee.role}</p>
                 </div>
             </div>
-            {employee.officeNum}
-            {employee.mobileNum}
-            {employee.sms}
-            {employee.email}
+            <div className='border'>
+                <h3>Call Office</h3>
+                <p className="info-items">{employee.officeNum}</p>
+            </div>
+            <div className='border'>
+                <h3>Call Mobile</h3>
+                <p className="info-items">{employee.mobileNum}</p>
+            </div>
+            <div className='border'>
+                <h3>SMS</h3>
+                <p className="info-items">{employee.sms}</p>
+            </div>
+            <div className='border'>
+                <h3>Email</h3>
+                <p className="info-items">{employee.email}</p>
+            </div>
         </div>
     )
 }

@@ -4,7 +4,7 @@ import EmployeeList from './../components/EmployeeList';
 
 function HomePage() {
   return (
-    <div className="App">
+    <div className="page-item">
         <Header />
         <SearchBar />
         <EmployeeList />
